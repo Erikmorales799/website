@@ -1,0 +1,272 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/02/2020, 01:47:05 PM
+    Author     : Erik
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+
+font-family: 'Montserrat', sans-serif;  
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #191c32;
+  color: #fff;
+}
+.navbar {
+  display: flex;
+  justify-content:space-between;
+  padding: 2em;
+}
+
+
+
+.brand{
+  margin-top: -20px;
+
+}
+
+.brand span {
+  color: aqua;
+}
+ 
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 40px;
+}
+
+
+.menu .active {
+  color:  aqua;
+}
+
+.menu a:hover {
+  background-color: aqua;
+  color: #191c32;
+  transition: ease-in .4s;
+}
+
+.main{
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-auto-columns: repeat(2,1fr);
+  align-items: center;
+}
+
+h1{
+  font-size: 3em;
+  
+}
+
+span{
+  color: aqua;
+}
+
+.main img{
+width: 350px;
+border: 7px solid aqua;
+height: 370px;
+position: absolute;
+left: 60%;
+top: 100px;
+}
+
+.divider{
+  height: 4px;
+  width: 60px;
+  background-color: aqua;
+  margin-top: 5px;
+  margin-bottom: 2em;
+}
+
+.about p{
+  margin-bottom: 1em;
+}
+
+.about, 
+.container-contact  {
+  display: grid;
+  grid-auto-columns: repeat(10, 1fr);
+  width: 100vw;
+  align-items: center;
+
+}
+.about img {
+width:100%;
+grid-columns: 1/5;
+
+}
+
+.about-info{
+  grid-column: 5/10;
+  padding: 3em;
+}
+.about-info h2 {
+font-size: 2em;
+color: #191c32;
+}
+
+
+.portafolio-headings{
+  width: 100vw;
+  padding: 2em;
+}
+
+.portafolio-headings h2{
+font-size: 2.5em;
+}
+
+.portafolio {
+  width: 100wh;
+
+} 
+.portafolio .container{
+  width: 80wh;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  
+}
+.card{
+  width: 300px;
+  height: 350px;
+  background-color: #101e4b;
+  color: #fff;
+  margin: 1em;
+}
+.card1{
+  width: 300px;
+  height: 350px;
+  background-color: #101e4b;
+  color: #fff;
+  margin: 0.5em;
+  position: absolute;
+  top: 810px;
+}
+
+.card2{
+  width: 300px;
+  height: 350px;
+  background-color: #101e4b;
+  color: #fff;
+  margin: 0.5em;
+  position: absolute;
+  top: 810px;
+  right: 22px;
+}
+.card_img {
+  width: 100%;
+  height: 150px;
+  background-image: url(Imagenes/imagen7.png);
+  background-size: cover;
+
+}
+
+.card_title {
+  padding: 20px;
+}
+
+.proyects-link{
+   display: flex;
+   justify-content: space-evenly;
+
+}
+ 
+.proyects-link i {
+  color: white;
+
+}
+
+
+.proyects-detailes{
+  margin: 0auto;
+  margin: 1em;
+  width: 70%;
+}
+
+.proyects-detailes a {
+  text-decoration: none;
+  color: #191c32;
+}    
+
+
+.footer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100wh;
+height: 200px;
+background-color: aqua;
+
+}
+
+.footer-content h2{
+font-size: 2em ;
+
+}
+
+.footer-content h5,
+.social-network{
+  font-size: 1.5em;
+
+}
+.sotial-network{
+display: flex;
+justify-content: space-evenly;
+  width: 300px;
+margin-top: 1em;
+
+}
+
+.portafolio1 .container1{
+  width: 80wh;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: right;
+  justify-content: left ;
+}
+.portafolio-headings1 {
+  width: 95vw;
+  padding: 2em;
+}
+
+.card_img1 {
+  width: 100%;
+  height: 150px;
+  background-image: url(Imagenes/imagen9.png);
+  background-size: cover;
+
+}
+.card_img2 {
+  width: 100%;
+  height: 150px;
+  background-image: url(Imagenes/imagen8.png);
+  background-size: cover;
+
+}
